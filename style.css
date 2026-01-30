@@ -1,20 +1,41 @@
-header{
-  text-align: center;
-  border: 1px solid black;
-  padding: 50px;
-  background-color: rgb(45, 145, 191);
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-h1 {
-  height:30px
-   display inline;
+
+.login-container{
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
 }
-p {
-  margin: 10px;
-  border: 1px solid black;
-  display: inline-flexbox;
-  line-height:2
+
+h1{
+    text-align: center;
 }
-span{
-  border: 0px solid black;
-  
+
+label{
+    display: block;
+    margin-top: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button{
+    width: 100%;
+   margin-top: 20px;
+    padding: 15px;
+background-color: bisque;
+color: white;
+border:none;
+cursor: pointer;
 }
